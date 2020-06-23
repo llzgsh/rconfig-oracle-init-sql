@@ -1,1 +1,1 @@
-luolian/rconfig-oci8:2.0 µÄ³õÊ¼½Å±¾
+luolian/rconfig-oci8:2.0  init sql
