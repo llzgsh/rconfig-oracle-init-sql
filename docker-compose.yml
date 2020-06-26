@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  rconfig:
+    image: luolian/rconfig-oci8:2.0
+    container_name: rconfig
+    ports:
+      - "8089:80"
+    restart: always
+    networks:
+      backend:
+        aliases:
+          - rconfig
+networks:
+  backend:
+    driver: bridge
